@@ -1,0 +1,52 @@
+.homeMainDiv {
+    position: relative; /* Required for the overlay */
+    background: url("../../assets/welcome-hero/banner.jpg");
+    max-width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9; 
+        z-index: -1;
+         position: relative;
+        top: 0px; 
+}
+
+
+.homeMainDiv::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+}
+
+
+.homeMainDiv h1{
+    font-size: 5rem;
+    font-weight: 800;
+    margin-top: 8rem;
+}
+
+.homeCardMainDiv{
+    background: #fff;
+    box-shadow: 0px 0px 6px #ab9e9e;
+
+}
+.homeDiv{
+    position: relative;
+    top: -76px;
+}   
+
+#home{
+    position: relative;
+    /* top: 72px; */
+}
+.imgTitle{
+    font-weight: 700;
+}
+.icon{
+    height: 50px;
+}

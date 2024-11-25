@@ -1,0 +1,48 @@
+.ExploreMain{display: grid;
+
+    grid-template-columns: repeat(3, 1fr);}
+
+    .exploreTitle{
+        font-size: 21px;
+        font-weight: 500;
+    }
+    .ExploreBtnLabel{
+        background-color: #fff;
+        border: none;
+    }
+    .mainratingsec{
+        font-size: 14px;
+    }
+    .rating{
+        background: green;
+        color: #fff;
+        border-radius: 7px;
+    }
+   .exploreDesc{
+    font-size: 14px;
+   }
+
+   .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .ExploreMainDiv:hover .overlay {
+    opacity: 1!important;
+  }
+  .imgoverlay{
+    position: relative;
+  }
+  .overlaybtns{
+    background-color: red;
+    color: #fff;
+  }
